@@ -8,7 +8,7 @@ keywords = [
 
 commands = [
     ('COMMANDCOMPLEX', r'(goto|move|turn|face|put|pick|jump|nop)'), # Comandos que incluyen instrucciones adicionales
-    ('COMMANDCAPITAL', r'[MRCBP]'),                                 # Comandos compuestos de una sola letra mayuscula (M,R,C,B,P)
+    ('COMMANDCAPITAL', r'[MRCBP]'),                                  # Comandos compuestos de una sola letra mayuscula (M,R,C,B,P)
     ('COMPLEMENT', r'(with|ofType|toThe|inDir)'),                   # Comandos de complemento para los complejos
 ]
 
